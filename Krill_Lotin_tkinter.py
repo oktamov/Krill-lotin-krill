@@ -22,7 +22,7 @@ calc = Tk()
 calc.geometry('690x500')
 calc.title("LOTIN KRILL LOTIN")
 calc.configure(background='yellow')
-img = PhotoImage(file='D:\Roziali\python\lotin_krill\logo.png')
+img = PhotoImage(file='file_path')
 calc.iconphoto(False, img)
 
 entry = Entry(background="white", width=50, font=20, borderwidth=5, takefocus=10)
